@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #B8D4DF;
+  font-size: 16px;
+  margin: 0;
+}
+
+header,
+footer {
+  width: 100%;
+  background-color: #F8F8E0;
+
+}
+
+header {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+div {
+  max-width: 100%;
+  background-color: red;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.col1 {
+  background-color: #99EBFF;
+}
+
+.col2 {
+  background-color: #ff99eb;
+}
+
+.col3 {
+  background-color: #ebff99;
+}
+
+.circle-img {
+  width: 150px;
+  height: 150px;
+  background-image: url(Hopcat1.jpg);
+  background-size: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1199px) {
+  .col1 {
+    float:left;
+    width: 48%;
+    margin: 1%;
+  }
+  .col2 {
+    float: right;
+    width: 48%;
+    margin: 1%;
+  }
+  .col3 {
+    float: left;
+    width: 98%;
+    margin: 1%;
+    margin-top: 0;
+  }
+
+  footer {
+    float: left;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .col1,
+  .col2,
+  .col3 {
+    float:left;
+    width: 32.33333%;
+    margin: 0.5%;
+  }
+
+  footer {
+    float: left;
+  }
+
+}
+
+}
