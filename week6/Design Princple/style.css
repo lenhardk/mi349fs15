@@ -3,40 +3,70 @@ body {
   text-align: center;
   font-size: 24px;
   margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
 }
 
-div {
-  float: right;
+h1 {
+  margin: auto;
+  margin-top: 50px;
+
+}
+
+.wrapper1 {
+  order: 2;
+
+}
+
+.wrapper2 {
+
+
+}
+
+.bad {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.good {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .bad1 {
   background-color: #567483;
   width: 300px;
   height: 500px;
+  order: 3;
 }
 
 .bad2 {
   background-color: #3524A6;
   width: 300px;
   height: 500px;
+  order: 2;
 }
 
 .bad3 {
   background-color: #007865;
   width: 300px;
   height: 500px;
+  order: -1;
 }
 
 .bad4 {
   background-color: #FF4A23;
   width: 300px;
   height: 500px;
+  order: 1;
 }
 
 .bad5 {
   background-color: #DD54F3;
   width: 1200px;
   height: 250px;
+  order: 5;
+  margin-bottom: 50px;
 }
 
 .description {
@@ -51,9 +81,9 @@ p {
   padding-bottom: 20px;
 }
 
-.good {
+/*.good {
   margin-bottom: 50px;
-}
+}*/
 
 
 .good2 {
