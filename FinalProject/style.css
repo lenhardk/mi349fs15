@@ -1,0 +1,347 @@
+
+
+body {
+    font-size: 10px;
+    background-color: #99ff99;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a9ffa3+0,34c417+50,2d512c+100&0.7+0,1+100 */
+    background: -moz-linear-gradient(top,  rgba(169,255,163,0.7) 0%, rgba(52,196,23,0.85) 50%, rgba(45,81,44,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(169,255,163,0.7) 0%,rgba(52,196,23,0.85) 50%,rgba(45,81,44,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(169,255,163,0.7) 0%,rgba(52,196,23,0.85) 50%,rgba(45,81,44,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3a9ffa3', endColorstr='#2d512c',GradientType=0 ); /* IE6-9 */
+    margin: 0 auto;
+    font-family: 'Exo 2', 'Verdana', sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 1200px;
+}
+
+header {
+  text-align: center;
+  background-image: url("images/money.jpg");
+  background-size: cover;
+
+}
+
+nav {
+  background-color: rgba(0, 204, 0,0.75);
+  margin: 0;
+  border: solid #ffff99;
+}
+
+.initial {
+  list-style: none;
+  padding: 5px;
+  font-size: 1.6rem;
+  border: solid #ffff99;
+}
+
+h1 {
+  display: none;
+  font-size: 2.5rem;
+  font-family: 'Arvo','Georgia', serif;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 50%;
+  color: white;
+  background-color: rgba(128, 128, 128,0.75);
+  border-radius: 5px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+h2{
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: 'Arvo','Georgia', serif;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Arvo','Georgia', serif;
+}
+
+p {
+  font-size: 1rem;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  margin: 0px;
+  margin-top: 30px;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+img {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 100%;
+  height:auto;
+}
+
+.two img {
+  margin-top: 10px;
+}
+
+.one {
+  order: 1;
+}
+
+.two {
+  order: 3;
+}
+
+.three {
+  order: 2;
+}
+
+.topic {
+  text-align: center;
+  background-color: rgba(255, 255, 153,0.6);
+  padding: 5px;
+  border: solid darkgreen 5px;
+}
+
+.icon {
+  width: 40%;
+  height:auto;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.initial:hover {
+  background-color: rgba(0, 77, 0,0.75);
+  color: #ffffb3;
+}
+
+
+.activate {
+  border: solid darkgreen 5px;
+  outline: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -20px;
+  font-size: 1rem;
+  box-shadow: 5px 0px 5px #888888;
+  background-color: yellow;
+}
+
+.view {
+  display: none;
+  list-style: none;
+  padding: 0;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.sub {
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+  flex-grow: 1;
+}
+
+a:visited {
+  color: #ffffb3;
+}
+
+a:active {
+  background-color: rgba(13, 51, 0,0.75);
+}
+
+.emailbx {
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 204, 0.5);
+    padding-bottom: 20px;
+    padding-top: 2px;
+    outline: none;
+}
+
+.box {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -20px;
+  font-size: 1rem;
+  box-shadow: 5px 0px 5px #888888;
+  outline: none;
+}
+
+.submitbutton {
+    background-color: green;
+    color: yellow;
+    border-radius: 5px;
+    box-shadow: 5px 0px 5px #888888;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.social ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.social ul img {
+    width: 50%;
+    height: auto;
+    margin: 0;
+}
+
+.logo {
+  width: 50%;
+  height: auto;
+  padding-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #f6f5d5;
+  padding: 5px;
+  margin: 0;
+}
+
+/*Media Queries*/
+
+@media screen and (min-width: 700px) {
+
+    nav {
+      display: flex;
+      flex-flow: row nowrap;
+      align-content: center;
+    }
+
+    .two {
+      order: 2;
+    }
+
+
+    .home {
+      border-left: none;
+    }
+
+    .initial {
+      border: none;
+      border-left: solid #ffff99;
+    }
+
+    .initial,
+    .sub {
+      font-size: 1rem;
+      flex-grow: 1;
+    }
+
+    main {
+      display:flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+
+    .maincontent {
+      width: 45%;
+    }
+
+    .three {
+      order: 3;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .emailbx {
+      display: flex;
+      flex-flow: row wrap;
+      align-content: flex-start;
+      margin: 0 auto;
+      margin-bottom: 0;
+    }
+
+    .submitbutton {
+      margin: 0 auto;
+      margin-left: 10px;
+      font-size: 1rem;
+    }
+
+    .box {
+      margin: 0 auto;
+      margin-right: 10px;
+      margin-top: 5px;
+      padding: 5px;
+      font-size: 1rem;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      margin: 10px auto;
+      width: 100%;
+    }
+
+    .sub {
+      padding: 10px;
+      padding-right: 5px;
+      padding-left: 5px;
+      margin: 0;
+      font-size: 0.75rem;
+    }
+
+    .view {
+      margin: 0 auto;
+      width: 90%;
+    }
+
+    .initial:hover .view {
+      display: block;
+    }
+
+    .view:nth-child(2) {
+      border-top: solid black;
+      margin-top: 5px;
+    }
+
+    .sub:hover {
+      background-color: darkgray;
+    }
+
+    .logo {
+      width: 45%;
+      height: auto;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+  .emailbx {
+    width:75%;
+  }
+
+  h2 {
+    text-align: left;
+  }
+
+  .logo {
+    width: 30%;
+    height: auto;
+  }
+
+}
